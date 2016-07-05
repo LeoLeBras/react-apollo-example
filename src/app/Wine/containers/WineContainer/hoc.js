@@ -1,23 +1,24 @@
 /* @flow */
 
-import { compose, shouldUpdateComponent } from 'recompose'
+import { compose } from 'recompose'
 import { connect } from 'react-apollo'
 import { withRouter } from 'react-router'
 import gql from 'graphql-tag';
 
-const mapQueriesToProps = () => ({
+const mapQueriesToProps = ({ ownProps }) => ({
   data: {
     query: gql`
-      query getWines($limit: Int!) {
-        wines(limit: $limit) {
+      query getWine($id: Int!) {
+        wines(id: $id) {
           id,
           name
         }
       }
     `,
     variables: {
-      limit: 2,
+      id: ownProps.params.wineId,
     },
+    forceFetch: false,
   },
 })
 

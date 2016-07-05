@@ -17,6 +17,7 @@ module.exports = {
       '@layouts': path.join(__dirname, '../src/ressources/layouts'),
       '@utils': path.join(__dirname, '../src/utils'),
       '@Feed': path.join(__dirname, '../src/app/Feed'),
+      '@Wine': path.join(__dirname, '../src/app/Wine'),
     },
   },
   output: {

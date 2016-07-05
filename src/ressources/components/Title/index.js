@@ -1,10 +1,13 @@
 /* @flow */
 
 import React from 'react'
+import styles from './Title'
 
 const Title = (): React$Element => {
   return (
-    <div>Title</div>
+    <h1 className={styles.text}>
+      Title
+    </h1>
   )
 }
 

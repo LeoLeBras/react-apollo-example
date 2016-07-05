@@ -24,6 +24,8 @@ module.name_mapper='^@store\/\(.*\)$' -> '<PROJECT_ROOT>/src/store/\1'
 module.name_mapper='^@store$' -> '<PROJECT_ROOT>/src/store'
 module.name_mapper='^@Feed\/\(.*\)$' -> '<PROJECT_ROOT>/src/app/Feed/\1'
 module.name_mapper='^@Feed$' -> '<PROJECT_ROOT>/src/app/Feed'
+module.name_mapper='^@Wine\/\(.*\)$' -> '<PROJECT_ROOT>/src/app/Wine/\1'
+module.name_mapper='^@Wine$' -> '<PROJECT_ROOT>/src/app/Wine'
 module.name_mapper='^@utils\/\(.*\)$' -> '<PROJECT_ROOT>/src/utils/\1'
 module.name_mapper='^@utils$' -> '<PROJECT_ROOT>/src/utils'
 
