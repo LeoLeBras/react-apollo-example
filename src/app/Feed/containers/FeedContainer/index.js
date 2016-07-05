@@ -39,7 +39,7 @@ class FeedContainer extends Component {
 
   render(): React$Element {
     const { loading, wines } = this.props.data
-    const { currentPage } = this.state
+    const { showAll } = this.state
     return (
       <div>
         {loading &&
@@ -53,7 +53,9 @@ class FeedContainer extends Component {
                 {...wine}
               />
             ))}
-            <button onClick={::this.onShowAll}>Show all</button>
+            <button onClick={::this.onShowAll}>
+              {showAll ? 'Limit to 2 item' : 'Show all'}
+            </button>
           </div>
         }
       </div>
