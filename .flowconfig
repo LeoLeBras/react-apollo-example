@@ -1,0 +1,32 @@
+[ignore]
+.*/node_modules/react/.*
+.*/node_modules/fbjs/.*
+
+[include]
+./src/
+
+[libs]
+./interfaces/
+
+[options]
+module.system=haste
+esproposal.class_instance_fields=enable
+esproposal.class_static_fields=enable
+
+module.name_mapper='.*\.\(scss\|css\)$' -> 'CSSModule'
+module.name_mapper='^@components\/\(.*\)$' -> '<PROJECT_ROOT>/src/ressources/components/\1'
+module.name_mapper='^@components$' -> '<PROJECT_ROOT>/src/ressources/components'
+module.name_mapper='^@layouts\/\(.*\)$' -> '<PROJECT_ROOT>/src/ressources/layouts/\1'
+module.name_mapper='^@layouts$' -> '<PROJECT_ROOT>/src/ressources/layouts'
+module.name_mapper='^@config\/\(.*\)$' -> '<PROJECT_ROOT>/src/config/\1'
+module.name_mapper='^@config$' -> '<PROJECT_ROOT>/src/config'
+module.name_mapper='^@store\/\(.*\)$' -> '<PROJECT_ROOT>/src/store/\1'
+module.name_mapper='^@store$' -> '<PROJECT_ROOT>/src/store'
+module.name_mapper='^@Feed\/\(.*\)$' -> '<PROJECT_ROOT>/src/app/Feed/\1'
+module.name_mapper='^@Feed$' -> '<PROJECT_ROOT>/src/app/Feed'
+module.name_mapper='^@utils\/\(.*\)$' -> '<PROJECT_ROOT>/src/utils/\1'
+module.name_mapper='^@utils$' -> '<PROJECT_ROOT>/src/utils'
+
+suppress_type=$FlowIssue
+suppress_type=$FlowFixMe
+suppress_type=$FixMe
