@@ -21,3 +21,6 @@ Install Node.js components:
 ```shell
 $ npm i                         # Install Node.js components listed in ./package.json
 ```
+
+## Install server
+Coming soon ...
