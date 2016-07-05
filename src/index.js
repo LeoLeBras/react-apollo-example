@@ -6,7 +6,6 @@ import { ApolloProvider } from 'react-apollo'
 import ApolloClient, { createNetworkInterface } from 'apollo-client';
 import { Router, browserHistory } from 'react-router'
 import { NETWORK_INTERFACE } from '@config'
-import DevTools from '@utils/DevTools'
 import createStore from '@store/create'
 import routes from './routes'
 
