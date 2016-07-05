@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react'
 import Wine from '@Feed/components/Wine'
-import Pagination from '@Feed/components/Pagination'
 import hoc from './hoc'
 
 type Props = {
