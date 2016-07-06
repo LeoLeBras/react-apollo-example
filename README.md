@@ -1,4 +1,7 @@
 # [WIP] react-redux-apollo-example 🇫🇷 🍷
+[![Dependency Status](https://david-dm.org/LeoLeBras/react-apollo-example.svg?style=flat)](https://david-dm.org/LeoLeBras/react-apollo-example)
+[![devDependency Status](https://david-dm.org/LeoLeBras/react-apollo-example/dev-status.svg?style=flat)](https://david-dm.org/LeoLeBras/react-apollo-example#info=devDependencies)
+
 A React/Apollo full-stack example app
 
 ## Requirements
