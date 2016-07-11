@@ -1,0 +1,9 @@
+/**
+ * <Footer /> component style
+ */
+
+.container {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e0dcdc;
+}

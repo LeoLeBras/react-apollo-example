@@ -1,0 +1,15 @@
+/* @flow */
+
+export const USER_FETCH_REQUESTED = 'USER_FETCH_REQUESTED';
+export const USER_FETCH_SUCCEEDED = 'USER_FETCH_SUCCEEDED';
+export const USER_FETCH_FAILED = 'USER_FETCH_FAILED';
+export const USER_CREATE_REQUESTED = 'USER_CREATE_REQUESTED';
+export const USER_CREATE_SUCCEEDED = 'USER_CREATE_SUCCEEDED';
+export const USER_CREATE_FAILED = 'USER_CREATE_FAILED';
+export const USER_UPDATE_REQUESTED = 'USER_UPDATE_REQUESTED';
+export const USER_UPDATE_SUCCEEDED = 'USER_UPDATE_SUCCEEDED';
+export const USER_UPDATE_FAILED = 'USER_UPDATE_FAILED';
+
+const fetchUser = () => ({})
+const createUser = () => ({})
+const updateUser = () => ({})

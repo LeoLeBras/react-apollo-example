@@ -1,0 +1,13 @@
+/**
+ * <DefaultLayout /> component style
+ */
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  background-color: #eee;
+  margin-bottom: 20px;
+}
