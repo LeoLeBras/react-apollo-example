@@ -27,7 +27,7 @@ $ npm i                         # Install Node.js components listed in ./package
 ```
 
 ## Install server
-Instructions : https://github.com/baloran/koa-sequelize-graphql
+This example works with this GraphQL server : https://github.com/baloran/koa-sequelize-graphql .
 
 ## Contributing
 Pull Request are welcome 🍷👄
