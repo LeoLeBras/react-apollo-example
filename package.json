@@ -35,10 +35,10 @@
     "webpack-hot-middleware": "^2.12.0"
   },
   "dependencies": {
-    "apollo-client": "^0.3.26",
+    "apollo-client": "^0.3.29",
     "graphql-tag": "^0.1.7",
     "react": "^15.2.0",
-    "react-apollo": "^0.3.13",
+    "react-apollo": "^0.3.15",
     "react-dom": "^15.2.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.5.2",
