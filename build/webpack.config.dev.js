@@ -13,11 +13,12 @@ module.exports = {
     alias: {
       '@config': path.join(__dirname, '../src/config'),
       '@store': path.join(__dirname, '../src/store'),
-      '@components': path.join(__dirname, '../src/ressources/components'),
-      '@layouts': path.join(__dirname, '../src/ressources/layouts'),
+      '@components': path.join(__dirname, '../src/shared/components'),
+      '@layouts': path.join(__dirname, '../src/shared/layouts'),
       '@utils': path.join(__dirname, '../src/utils'),
-      '@Feed': path.join(__dirname, '../src/app/Feed'),
-      '@Wine': path.join(__dirname, '../src/app/Wine'),
+      '@helpers': path.join(__dirname, '../src/helpers'),
+      '@Feed': path.join(__dirname, '../src/bundles/Feed'),
+      '@Wine': path.join(__dirname, '../src/bundles/Wine'),
     },
   },
   output: {
